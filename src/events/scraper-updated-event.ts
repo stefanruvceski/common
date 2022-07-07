@@ -7,5 +7,6 @@ export interface ScraperUpdatedEvent {
     title: string;
     url: string;
     content: object;
+    userId: string;
   };
 }
