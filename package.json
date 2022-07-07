@@ -1,5 +1,5 @@
 {
-  "name": "@cygnetops/common",
+  "name": "@stefanruvceski/common",
   "version": "1.0.25",
   "description": "",
   "main": "./build/index.js",
