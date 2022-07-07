@@ -7,5 +7,6 @@ export interface ScraperCreatedEvent {
     title: string;
     url: string;
     content: object;
+    userId: string;
   };
 }
