@@ -13,4 +13,8 @@ export * from "./events/base-publisher";
 export * from "./events/subjects";
 export * from "./events/scraper-created-event";
 export * from "./events/scraper-updated-event";
+export * from "./events/scraping-finished-event";
+export * from "./events/scraping-start-event";
+export * from "./events/scraping-schedule-event";
+export * from "./events/types/scraping-data";
 export * from "./events/types/order-status";

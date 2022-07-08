@@ -14,7 +14,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-// Re-export stuff from errors and middlewares
+// Re-export stuff from errors, middlewares and events
 __exportStar(require("./errors/bad-request-error"), exports);
 __exportStar(require("./errors/custom-error"), exports);
 __exportStar(require("./errors/database-connection-error"), exports);
@@ -30,4 +30,8 @@ __exportStar(require("./events/base-publisher"), exports);
 __exportStar(require("./events/subjects"), exports);
 __exportStar(require("./events/scraper-created-event"), exports);
 __exportStar(require("./events/scraper-updated-event"), exports);
+__exportStar(require("./events/scraping-finished-event"), exports);
+__exportStar(require("./events/scraping-start-event"), exports);
+__exportStar(require("./events/scraping-schedule-event"), exports);
+__exportStar(require("./events/types/scraping-data"), exports);
 __exportStar(require("./events/types/order-status"), exports);
