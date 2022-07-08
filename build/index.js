@@ -30,3 +30,4 @@ __exportStar(require("./events/base-publisher"), exports);
 __exportStar(require("./events/subjects"), exports);
 __exportStar(require("./events/scraper-created-event"), exports);
 __exportStar(require("./events/scraper-updated-event"), exports);
+__exportStar(require("./events/types/order-status"), exports);
