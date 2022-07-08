@@ -1,6 +1,7 @@
+import { ScrapedDataStatus } from "./order-status";
 export interface ScrapingData {
     name: string;
     selector: string;
-    tag?: string;
+    status?: ScrapedDataStatus;
     value?: string;
 }
