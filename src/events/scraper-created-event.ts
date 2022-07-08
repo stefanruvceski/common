@@ -1,4 +1,5 @@
 import { Subjects } from "./subjects";
+import { ScrapingData } from "./types/scraping-data";
 
 export interface ScraperCreatedEvent {
   subject: Subjects.ScraperCreated;
@@ -7,6 +8,6 @@ export interface ScraperCreatedEvent {
     title: string;
     url: string;
     content: object;
-    userId: string;
+    userId: ScrapingData[];
   };
 }
