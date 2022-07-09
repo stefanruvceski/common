@@ -7,6 +7,5 @@ export interface ScrapingStartEvent {
     scrapingId: string;
     url: string;
     content: ScrapingData[];
-    jobId: string | number | null;
   };
 }
