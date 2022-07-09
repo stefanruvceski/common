@@ -1,4 +1,4 @@
-export declare enum ScrapedDataStatus {
+export declare enum ScrapingStatus {
     Pending = "pending",
     Success = "success",
     Fail = "fail"
