@@ -21,4 +21,4 @@ export * from "./events/scraping-start-event";
 export * from "./events/scraping-schedule-event";
 
 export * from "./events/types/scraping-data";
-export * from "./events/types/order-status";
+export * from "./events/types/scraping-status";
