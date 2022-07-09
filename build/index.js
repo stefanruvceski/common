@@ -34,4 +34,4 @@ __exportStar(require("./events/scraping-finished-event"), exports);
 __exportStar(require("./events/scraping-start-event"), exports);
 __exportStar(require("./events/scraping-schedule-event"), exports);
 __exportStar(require("./events/types/scraping-data"), exports);
-__exportStar(require("./events/types/order-status"), exports);
+__exportStar(require("./events/types/scraping-status"), exports);
