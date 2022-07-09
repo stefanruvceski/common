@@ -19,6 +19,7 @@ export * from "./events/scraper-updated-event";
 export * from "./events/scraping-finished-event";
 export * from "./events/scraping-start-event";
 export * from "./events/scraping-schedule-event";
+export * from "./events/scraping-stop-event";
 
 export * from "./events/types/scraping-data";
 export * from "./events/types/scraping-status";

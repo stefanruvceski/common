@@ -6,6 +6,5 @@ export interface ScrapingFinishedEvent {
   data: {
     scrapingId: string;
     content: ScrapingData[];
-    jobId: string | number | null;
   };
 }
