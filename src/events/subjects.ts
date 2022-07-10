@@ -3,6 +3,7 @@ export enum Subjects {
   ScraperUpdated = "scraper:updated",
   ScrapingStart = "scraping:start",
   ScrapingStop = "scraping:stop",
-  ScrapingSchedule = "scraping:schedule",
+  ScrapingEverySchedule = "scraping:schedule-every",
+  ScrapingCronSchedule = "scraping:schedule-cron",
   ScrapingFinished = "scraping:finished",
 }
